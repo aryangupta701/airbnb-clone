@@ -17,7 +17,7 @@ export default function Card(props){
                 <span> {props.item.stats.rating.toFixed(1)}</span>
                 <span id="rating-text"> ({props.item.stats.reviewCount})•{props.item.location}</span>
             </p>
-            <p>{props.item.title}</p>
+            <p id="card-title">{props.item.title}</p>
             <p><span id="bold-text">From ${props.item.price}</span> / person</p>
         </div>
     )

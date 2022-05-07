@@ -86,3 +86,7 @@ body{
   text-align: center;
   line-height: 20px;
 }
+
+#card-title{
+  height: 36px;
+}
