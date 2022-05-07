@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Grid from './components/Grid'
 import OnlineExp from './components/OnlineExp'
 import Card from './components/Card'
+import data from './data'
 
 function App() {
   return (
@@ -10,7 +11,16 @@ function App() {
     <Navbar/>
     <Grid />
     <OnlineExp />
-    <Card />
+    {data.map((item)=>{
+      return <Card 
+        title={item.title}
+        price={item.price}
+        img={item.coverImg}
+        rating ={item.stats.rating}
+        reviewCount ={item.stats.reviewCount}
+        country="USA"
+      />
+    })}
     </div>
   );
 }
