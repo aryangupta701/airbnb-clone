@@ -14,6 +14,7 @@
 
 body{
   margin: 0px;
+  font-family: 'Poppins', sans-serif;
 }
 
 #grid-img{
@@ -34,4 +35,34 @@ body{
   font-weight: 300;
   width: 320px;
   padding-left: 36px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.card-img{
+  height: 235px;
+  width: 176px;
+}
+
+.card{
+  width: 176px;
+  padding: 9px;
+  font-size: 12px;
+  margin-left: 30px;
+}
+
+.star-logo{
+  width: 12px;
+}
+
+.card>p{
+  margin: 4px 0px;
+}
+
+#bold-text{
+  font-weight: 600;
+}
+
+#rating-text{
+  color: #918E9B;
 }

@@ -1,7 +1,8 @@
 import './App.css';
 import Navbar from './components/Navbar'
-import Grid from './compenents/Grid.js'
-import OnlineExp from './compenents/OnlineExp.js'
+import Grid from './components/Grid'
+import OnlineExp from './components/OnlineExp'
+import Card from './components/Card'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
     <Navbar/>
     <Grid />
     <OnlineExp />
+    <Card />
     </div>
   );
 }
